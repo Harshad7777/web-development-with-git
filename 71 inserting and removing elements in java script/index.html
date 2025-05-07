@@ -14,12 +14,12 @@
 
 <body>
     <div class="container red bg-green">
-        <div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan">Hey I am a box</div>
+        <div class="box" style="display: flex;" data-createdby="harshad" data-conceptby="rohan">Hey I am a box</div>
         <div class="box">Hey I am a box</div>
         <script>
             // Create and insert a new div element
             let div = document.createElement("div");
-            div.innerHTML = "I have been inserted <b>by harry</b>";
+            div.innerHTML = "I have been inserted <b>by harshad</b>";
             div.setAttribute("class", "created");
             document.querySelector(".container").before(div);
 
@@ -32,17 +32,76 @@
 
 </html>
 
+
 <!-- Written inside the console -->
 document.querySelector(".box");
-// <div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan">Hey I am a box</div>
+// <div class="box" style="display: flex;" data-createdby="harshad" data-conceptby="rohan">Hey I am a box</div>
+
+
 document.querySelector(".box").innerHTML;
 // "Hey I am a box"
+
+
 document.querySelector(".container").innerHTML;
 // "<div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan">Hey I am a box</div>\n <div
-    class="box">Hey I am a box</div>\n
-<script>\n            let div = document.createElement("div"); \n             div.innerHTML = "I have been inserted <b>by harry</b>"\n            div.setAttribute("class", "created"); \n             document.querySelector(".container").before(div); \n\n\n            let cont = document.querySelector(".container") \n            cont.insertAdjacentHTML("beforebegin", "<b> I am under the water. Please h elp me here too much raining.... iuuuuooooo</b>") \n        </script>
-"
-document.querySelector(".container").innerHTML = "<h1>I am a new heading</h1>";
+    class="box">Hey I am a box</div>\n"
 
-document.querySelector(".container").innerText;
+document.querySelector(".box").innerHTML
 // "Hey I am a box"
+
+document.querySelector(".container").outer
+//undifined
+
+document.querySelector(".container").outerHTML
+// "<div class="container red bg-green">\n <div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan">Hey I am a box</div>\n <div class="box">Hey I am a box</div>\n </div>"
+
+document.qureySelector(".container").tagName
+// "DIV"
+
+document.qureySelector(".container").textContent
+// "Hey I am a box\nHey I am a box"
+
+document.querySelector(".container").innerHYML = "Hey I am Harshad"
+// "Hey I am Harshad"
+
+document.querySelector(".box").hasAttribute("style")
+// true
+
+document.querySelector(".box").setAttribute("style")
+// "display: flex;"
+
+document.querySElector(".box").setAttribute("style","displey:inline")
+// undefined
+
+document.querySelector(".box").attributes
+// NamedNodeMap(2) [0: "style", 1: "data-createdby", 2: "data-conceptby"]
+
+document.queryselector(".box").removeAttribute("style")
+// undefined
+
+document.designmode = "on"
+// "on"
+
+data-createdby="harshad" data-conceptby="rohan"
+// "harshad rohan"
+
+document.querySelector(".box").remove()
+// undefined
+
+document.querySelector(".container").calsslist
+// DOMTokenList(3) [0: "red", 1: "bg-green", 2: "container"]
+
+document.querySelector(".container").classname
+// "container red bg-green"
+
+document.querySelector(".container").classList.add("Harshad")
+// undefined
+
+document.querySelector(".container").classList.remove("Harshad")
+// undefined
+
+document.querySelector(".container").classList.toggle("Harshad")
+// undefined
+
+document.querySelector(".container").classlist.toggle("Harshad")
+// undefined
