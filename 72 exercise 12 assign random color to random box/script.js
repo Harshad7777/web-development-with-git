@@ -1,4 +1,4 @@
-console.log("script loded")
+//console.log("script loded")
 let boxes = document.querySelector(".container").children
 
 
