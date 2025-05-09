@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event bubbling</title>
+
+    <style>
+        .child {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        .childcontainer {
+            background-color: rgb(238, 144, 191);
+            padding: 34px;
+            margin: 34px;
+        }
+
+        .container {
+            background-color: lightgreen;
+            padding: 34px;
+            margin: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="childcontainer">
+            <div class="child">
+                I am a Child
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // document.querySelector(".child").addEventListener("click", () => {
+        //     alert("child was clicked")
+        // })
+
+        document.querySelector(".child").addEventListener("click", (e) => {
+            e.stopPropagation() // this will stop the event bubbling
+            alert("child was clicked")
+        })
+
+
+        document.querySelector(".childcontainer").addEventListener("click", () => {
+            alert("childcontainer was clicked")
+        })
+
+
+
+
+        document.querySelector(".container").addEventListener("click", () => {
+            alert("container was clicked")
+        })
+
+
+
+
+        function getRandomColor() {
+            let val1 = Math.ceil(0 + Math.random() * 255);
+            let val2 = Math.ceil(0 + Math.random() * 255);
+            let val3 = Math.ceil(0 + Math.random() * 255);
+            return `rgb(${val1},${val2},${val3})`
+        }
+
+        setInterval(() => {
+            document.querySelector(".childcontainer").style.background = getRandomColor() }, 1000);
+
+            // clearInterval(1) // this will stop the interval from running
+
+            //setTimeout(() => { // this will run the function after 2 seconds
+
+            //clearTimeout(1) // this will stop the timeout from running
+            // }, 2000);
+                
+    </script>
+</body>
+
+</html>
