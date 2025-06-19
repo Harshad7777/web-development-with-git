@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: aqua;
+            border: 2px solid black;
+            height: 40vh;
+            width: 40vw;
+        }
+
+
+
+        .box {
+            background-color: blue;
+            height: 10vh;
+            width: 10vw;
+            border: 2px solid purple;
+            /* transform: rotate(40deg); */
+            /* transform: rotate(0.25turn); */
+            /* transform: rotateX('40deg'); */
+            /* transform: rotatey('40deg'); */
+            /* transform: rotatez('40deg'); */
+            /* transform:scalex(1.6) */
+            /* transform: skew(34DEG); */
+            /* transform: translateX(100%); */
+            transform: translateX(-100%) skewX(40deg) translateX(45%);
+            transform-origin: 98% 0%;
+            transform: rotate(338deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+
+
+</body>
+
+</html>
