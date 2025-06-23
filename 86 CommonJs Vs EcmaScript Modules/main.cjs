@@ -30,12 +30,9 @@
 // import obj from "./mymodule.js"
 // console.log(obj)
 
-
-//remove from package.json type: "module" convert to commonjs
-
-   
 const a = require("./mymodule2.js")
-console.log(a,__dirname, __filename)
+
+console.log(a)
 
 
 
