@@ -1,0 +1,28 @@
+PS C:\Users\harsh\Downloads\html development with git\html-development-with-git\87 Working with Files fs and path Modules> npm init -y                                        
+Wrote to C:\Users\harsh\Downloads\html development with git\html-development-with-git\87 Working with Files fs and path Modules\package.json:
+
+{
+  "name": "87-working-with-files-fs-and-path-modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+
+
+
+PS C:\Users\harsh\Downloads\html development with git\html-development-with-git\87 Working with Files fs and path Modules> node "c:\Users\harsh\Downloads\html development with git\html-development-with-git\87 Working with Files fs and path Modules\main.js"
+ starting...
+ending...
+file created
+null harshad is a good boy
+PS C:\Users\harsh\Downloads\html development with git\html-development-with-git\87 Working with Files fs and path Modules>
