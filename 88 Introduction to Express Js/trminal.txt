@@ -28,3 +28,9 @@ npm i express
 
 //install multiple virsion of express like 4
 npm i express@4
+
+//app.get or app.post or app.put or app.delete(path, handler)
+localhost:3000/about
+
+//end points are maintable abosolutely not
+//sourse code contain the end point/data no yaar
