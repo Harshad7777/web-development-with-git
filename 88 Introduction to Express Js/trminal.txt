@@ -1,0 +1,30 @@
+//why use express
+it is web framework to build website
+http package has limited capability such as not able to serve static files
+also implementing security from starting
+after building server how to manage things
+handling get and post requests need to write custom code
+who wants to do that a lot
+then why am I using express
+
+//set up server
+main.js
+
+
+// restart server  automatically
+npm i --global nodemon
+
+
+//initiate project
+ npm init -y
+
+
+//main.js automatically restart server
+nodemon main .js 
+
+
+//install express
+npm i express
+
+//install multiple virsion of express like 4
+npm i express@4
