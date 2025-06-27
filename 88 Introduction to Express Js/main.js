@@ -48,26 +48,26 @@
 // parameter amd query 
 //logic to fetch {sluge} from database
 
-import express from 'express'
+const express = require('express')
 const app = express()
 const port = 3000
 
 //static files
 app.use(express.static('public'))
 
-app.get('/', (_, res) => {
+app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/about', (_, res) => {
+app.get('/about', (req, res) => {
   res.send('about us')
 })
 
-app.get('/contact', (_, res) => {
+app.get('/contact', (req, res) => {
   res.send('Hello contact us')
 })
 
-app.get('/blog', (_, res) => {
+app.get('/blog', (req, res) => {
   res.send('Hello blog!')
 })
 

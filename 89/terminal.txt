@@ -1,0 +1,7 @@
+//use postman at time handle big project
+//express router help to keep things organize
+
+
+npm init -y
+npm i express@4
+nodemon main.js
