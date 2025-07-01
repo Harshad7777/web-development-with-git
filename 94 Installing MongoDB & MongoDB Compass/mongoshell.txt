@@ -1,0 +1,4 @@
+show databases
+use harshad
+db.courses.find()
+db.courses.insertOne({name:"javaScript"})

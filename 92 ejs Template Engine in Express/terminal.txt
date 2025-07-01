@@ -1,0 +1,10 @@
+
+//getbootstrap.com
+//Using EJS with Express //https://github.com/mde/ejs/wiki/Using-EJS-with-Express
+//bootstrap
+
+npm init -y
+nom i Express
+npde index.js
+
+$ npm install ejs

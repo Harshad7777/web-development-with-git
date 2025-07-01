@@ -1,0 +1,4 @@
+//middlewares are catch request and modified it
+npm init -y
+npm i express
+nodemone main.js
