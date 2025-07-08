@@ -1,0 +1,16 @@
+{
+  "name": "designthelayout",
+  "version": "1.0.0",
+  "description": "this is the solution for the exercise number 17",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"vite"
+  },
+  "author": "Harshad",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

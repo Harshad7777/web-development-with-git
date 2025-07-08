@@ -10,3 +10,5 @@ npm install tailwindcss @tailwindcss/cli
  npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
  write html and css in index.html
+
+  <link rel="stylesheet" href="src/output.css">
