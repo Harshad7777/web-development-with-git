@@ -18,6 +18,7 @@ const Navbar = ({ color }) => {
     }, [color])
 
     //example of cleanup function 
+    
      useEffect(() => {
     alert("Hey welcome to my page.This is the first render of app.jsx")
 
