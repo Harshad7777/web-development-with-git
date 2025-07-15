@@ -43,8 +43,9 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      {showbtn ? <button>showbtn is true</button> : <button>showbtn is false</button>}
+     {/* {showbtn?<button>I will be shown only when second button is clicked</button>:""} */}
       {/* {showbtn && <button>showbtn is true</button>} */}
+      {showbtn ? <button>showbtn is true</button> : <button>showbtn is false</button>}
 
       {todos.map(todo => {
         // return <Todo key={todo.title} todo={todo}/>
