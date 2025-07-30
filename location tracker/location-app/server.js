@@ -6,8 +6,8 @@ const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB (local)
 mongoose.connect("mongodb://localhost:27017/locationDB", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useNewUrlParser: true
+ 
 })
 .then(() => console.log("✅ Connected to MongoDB"))
 .catch((err) => console.error("❌ MongoDB connection error:", err));
