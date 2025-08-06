@@ -1,7 +1,7 @@
 px create-next-app@latest
 
 
-√ What is your project named? ... my-app
+√ What is your project named? ... app-router
 √ Would you like to use TypeScript? ... No / 
 √ Would you like to use ESLint? ...  / Yes
 √ Would you like to use Tailwind CSS? ...  / Yes
