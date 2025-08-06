@@ -13,3 +13,5 @@ px create-next-app@latest
 npm run dev
 
 //https://nextjs.org/docs/app/api-reference/file-conventions/route
+
+next.js is a framework of frontend and also backend
