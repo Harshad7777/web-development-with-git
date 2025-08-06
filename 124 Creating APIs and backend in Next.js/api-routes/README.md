@@ -14,4 +14,6 @@ npm run dev
 
 //https://nextjs.org/docs/app/api-reference/file-conventions/route
 
+//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#handling_the_response
+
 next.js is a framework of frontend and also backend
