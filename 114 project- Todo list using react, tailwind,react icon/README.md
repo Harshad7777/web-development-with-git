@@ -15,5 +15,6 @@ npm create vite@latest
 
 
    npm install uuid    
+   
 
    npm install react-icons --save                      
