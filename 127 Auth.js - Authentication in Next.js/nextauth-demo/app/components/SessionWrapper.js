@@ -1,14 +1,10 @@
 "use client"
 import { SessionProvider } from "next-auth/react"
 
-//rafce
 
-
-const SessionWrapper = ({Children}) => {
+const SessionWrapper = ({children}) => {
   return (
- <SessionProvider>
-    {Children}
- </SessionProvider>
+    <SessionProvider>{children}</SessionProvider>
   )
 }
 

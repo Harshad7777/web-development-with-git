@@ -1,16 +1,14 @@
-import NextAuth from "next-auth"
+import NextAuth from 'next-auth'
 import GithubProvider from "next-auth/providers/github"
 
- const handler = NextAuth ({
-  // Configure one or more authentication providers
+const handler = NextAuth({
   providers: [
+    // OAuth authentication providers...
     GithubProvider({
-      clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_SECRET,
-    }),
-    // ...add more providers here
-  ],
+        clientId: process.env.GITHUB_ID,
+        clientSecret: process.env.GITHUB_SECRET,
+      }),
+  ]
 })
 
 export {handler as GET, handler as POST}
-//create folder : api/auth/[...nextauth]/router.js
